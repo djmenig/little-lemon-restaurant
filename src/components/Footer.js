@@ -1,11 +1,13 @@
 import React from "react";
+import svg1 from "../assets/Logo.svg";
 
-const Header = () => {
+const Footer = () => {
     return (
     <React.Fragment>
-        <img src="../assets/restauranfood.jpg"></img>
+        <h1>Everything below this is the last section called the Footer</h1>
+        <img src={svg1} alt="logo" />
         <nav>
-            <h3>Navigation</h3>
+            <h2>Navigation</h2>
             <ul>
                 <li class="navmenulink"><a href="../App.js">home</a></li>
                 <li class="navmenulink"><a href="../App.js/#about">about</a></li>
@@ -34,3 +36,5 @@ const Header = () => {
     </React.Fragment>
     );
     }
+
+export default Footer

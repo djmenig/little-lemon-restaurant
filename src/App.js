@@ -1,9 +1,10 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header.js';
-import Hero-section from './components/Hero-section.js';
-import Highlights-section from './components/Highlights-section.js';
-import Testimonials-section from './components/Testimonials-section.js';
-import About-section from './components/About-section.js';
+import Hero from './components/Hero.js';
+import Highlights from './components/Highlights.js';
+import Testimonials from './components/Testimonials.js';
+import About from './components/About.js';
 import Footer from './components/Footer.js'
 
 function App() {
@@ -11,10 +12,10 @@ function App() {
     <React.Fragment>
       <Header/>
       <main>
-        <Hero-section />
-        <Highlights-section />
-        <Testimonials-section />
-        <About-section />
+        <Hero />
+        <Highlights />
+        <Testimonials />
+        <About />
       </main>
       <Footer/>
     </React.Fragment>

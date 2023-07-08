@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../assets/Logo.svg";
+import svg1 from "../assets/Logo.svg";
 
 const Header = () => {
     return (
     <React.Fragment>
-        <img src="../assets/Logo.svg"></img>
+        <img src={svg1} alt="logo" />
         <nav>
             <ul>
                 <li class="navmenulink"><a href="../App.js">home</a></li>
@@ -18,3 +18,5 @@ const Header = () => {
     </React.Fragment>
     );
     }
+
+export default Header
